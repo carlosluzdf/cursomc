@@ -28,6 +28,14 @@ public class CategoriaResource {
 		return ResponseEntity.ok().body(obj);
 	}
 
+//	@RequestMapping(value = "/{nome}", method = RequestMethod.GET)
+//	public ResponseEntity<?> find( @PathVariable String nome) {
+//
+//		Categoria obj = service.buscar(nome);
+//
+//		return ResponseEntity.ok().body(obj);
+//	}
+
 //	@RequestMapping(method = RequestMethod.GET)
 //	public List<Categoria> listar() {
 //

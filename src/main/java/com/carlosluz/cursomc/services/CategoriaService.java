@@ -19,4 +19,10 @@ public class CategoriaService {
 
 		return obj.orElse(null);
 	}
+
+//	public Categoria buscar( String nome ) {
+//		Optional<Categoria> obj = repo.findOne(nome);
+//
+//		return obj.orElse(null);
+//	}
 }
